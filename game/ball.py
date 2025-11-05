@@ -42,6 +42,7 @@ class Ball:
         self.velocity_x = random.choice([-5, 5])
         self.velocity_y = random.choice([-3, 3])
 
+
     def rect(self):
         """Return a rectangle for collision detection."""
         return pygame.Rect(self.x, self.y, self.width, self.height)
